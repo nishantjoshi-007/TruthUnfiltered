@@ -16,11 +16,3 @@ build/
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
-
-# Ignore compiled CSS and JS files
-*.css
-*.js
-
-# Ignore minified files
-*.min.css
-*.min.js
