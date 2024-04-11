@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truth Unfiltered - Podcast</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="active" data-header>
+    <div class="container">
+      <h1>
+        Truth Unfiltered
+      </h1>
+
+      <!-- 
+        - overlay
+      -->
+      <div class="overlay" data-overlay></div>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#podcast" class="navbar-link">Podcast</a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="hero">
+        <div class="hero-content">
+            <img src="./assets/images/hero-title.png" alt="Podcast" class="hero-title">
+    
+            <p class="hero-text">
+                Dive into the heart of social media's misinformation maze: Unravel the truth, challenge algorithms, and reclaim your digital discernment in our latest episode.
+            </p>
+    
+            <audio id="audioPlayer" src="./assets/content/podcast1.mp3" controls style="width: 70%; bottom: 0; position: fixed; display: none;"></audio>
+            <button id="audioPlayerClose" style="position: fixed; bottom: 0; right: 0; z-index: 1001; display: none;">&#10006;</button>
+            
+            <div class="hero-btn-group" style="display: none;">
+                <button class="btn btn-primary" id="listenNowBtn">
+                    <ion-icon name="headset"></ion-icon>
+                    <span>Listen Now</span>
+                </button>
+                
+                <a href="#" target="_blank" id="showNotesLink" class="btn btn-primary">
+                    <ion-icon name="document"></ion-icon>
+                    <span>Show Notes</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-banner"></div>
+    </section>
+    
+
+
+
+
+      <!-- 
+        - #PODCAST
+      -->
+
+      <section class="podcast" id="podcast">
+        <ul class="podcast-list">
+          <li>
+            <a href="#" class="podcast-card" data-audio-src="./assets/content/podcast1.mp3" data-episode="1">
+              
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-1.png" alt="Navigating the digital Jungle">
+      
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+      
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2024-02-22">Feb 22, 2024</time>
+      
+                  <p class="pod-epi">Episodes: 01</p>
+                </div>
+      
+                <h3 class="h3 card-title">Navigating the Digital Jungle</h3>
+              </div>
+      
+            </a>
+          </li>
+      
+          <li>
+            <a href="#" class="podcast-card" data-audio-src="./assets/content/podcast2.mp3" data-episode="2">
+              
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-2.png" alt="Guarding Secrets in the Age of Surveillance">
+      
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+      
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2024-04-11">Apr 11, 2024</time>
+      
+                  <p class="pod-epi">Episodes: 02</p>
+                </div>
+      
+                <h3 class="h3 card-title">Guarding Secrets in the Age of Surveillance</h3>
+              </div>
+      
+            </a>
+          </li>
+        </ul>
+      </section>      
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+      <section class="newsletter">
+        <div class="newsletter-card">
+
+          <div class="card-content">
+            <h3 class="h3 card-title">Sign Up For Our Newsletter. It’s Free!</h3>
+
+            <p class="card-text">
+              Stay updated with the latest insights on social media.
+            </p>
+          </div>
+
+          <form action="" class="card-form" data-form>
+            <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
+              data-input>
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+        
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Truth Unfiltered logo" class="footer-logo">
+          </a>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-link-title">Start A Conversation</p>
+          </li>
+
+          <li>
+            <a href="mailto:hello@TruthUnfiltered.com" class="footer-link">hello@TruthUnfiltered.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+15780346789" class="footer-link">+1 (800) 987-6789</a>
+          </li>
+
+        </ul>
+
+        <div class="social-list-box">
+
+          <p class="social-title">Follow Us On:</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-apple"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2024 <a href="#">TruthUnfiltered</a>. All Rights Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
