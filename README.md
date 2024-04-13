@@ -9,19 +9,16 @@ inspired from: https://github.com/codewithsadee/micro
 </div>
 
 # :notebook_with_decorative_cover: Table of Contents
-
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 
 ## :toolbox: Getting Started
 
 ### :bangbang: Prerequisites
-
 - Install Visual Studio Code as Code Editor<a href="https://code.visualstudio.com/Download"> Here</a>
 
 
 ### :gear: Installation
-
 In VS code, First
 ```bash
 ctrl+P
@@ -33,9 +30,7 @@ ext install ritwickdey.liveserver
 
 
 ### :running: Run Locally
-
 Clone the project
-
 ```bash
 https://github.com/nishantjoshi-007/TruthUnfiltered
 ```
@@ -65,10 +60,7 @@ cmd+L & cmd+C
 
 
 ## :wave: Contributing
-
-<a href="https://github.com/nishantjoshi-007/TruthUnfiltered/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
-
-Contributions to the Glow Strike are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
+<img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> Contributions to the Glow Strike are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
 
 
 ## :warning: License
