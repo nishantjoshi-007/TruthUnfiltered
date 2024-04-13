@@ -10,7 +10,6 @@ inspired from: https://github.com/codewithsadee/micro
 
 # :notebook_with_decorative_cover: Table of Contents
 
-- [About the Project](#star2-about-the-project)
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 
@@ -69,10 +68,8 @@ cmd+L & cmd+C
 
 <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
 
-Contributions are always welcome!
+Contributions to the Glow Strike are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
 
-see `contributing.md` for ways to get started
 
 ## :warning: License
-
 Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/blob/main/LICENSE">LICENSE</a> for more information.
