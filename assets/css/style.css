@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2024 @Truth_Unfiltered
+ * copyright 2024 @Truth Unfiltered
  */
 
 
@@ -436,8 +436,8 @@ audio#audioPlayer {
   bottom: 0;
   line-height: 50px;
   position: fixed;
-  display: none; /* Hidden until toggled */
-  z-index: 1000; /* High z-index to ensure it stays on top */
+  display: none;
+  z-index: 1000;
   background-color: #333;
   color: #fff; 
 }

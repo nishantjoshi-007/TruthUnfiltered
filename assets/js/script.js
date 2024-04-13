@@ -104,13 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const podcastCards = document.querySelectorAll('.podcast-card');
   podcastCards.forEach(card => {
     card.addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent the default action
+      e.preventDefault();
       const episodeNum = this.getAttribute('data-episode');
       const content = episodeContent[episodeNum];
-      updateHeroContent(content); // Update the hero content
-      // Set the audio source here, but don't automatically play
+      updateHeroContent(content);
       document.getElementById('audioPlayer').src = content.audioSrc;
-      // Ensure the audio player and close button are hidden initially
       document.getElementById('audioPlayer').style.display = 'none';
       document.getElementById('audioPlayerClose').style.display = 'none';
     });
@@ -122,6 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.scrollY >= 200 ? goTopBtn.classList.add("active") : goTopBtn.classList.remove("active");
   });
 
+  // Default hero content
   const defaultContent = {
     description: "Dive into the heart of social media's misinformation maze: Unravel the truth, challenge algorithms, and reclaim your digital discernment in our latest episode.",
     bannerImageSrc: './assets/images/hero-banner.png'
@@ -132,7 +131,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroText = document.querySelector('.hero-content .hero-text');
     const heroBanner = document.querySelector('.hero-banner');
     const heroBtnGroup = document.querySelector('.hero-content .hero-btn-group');
-
     heroText.textContent = defaultContent.description;
     heroBanner.style.backgroundImage = `url(${defaultContent.bannerImageSrc})`;
     heroBtnGroup.style.display = 'none';
@@ -142,5 +140,4 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add event listener to the "Home" link to reset the hero content and banner
   const homeLink = document.querySelector('.navbar-list .navbar-link[href="#hero"]');
   homeLink.addEventListener('click', resetToDefaultContent);
-
 });
