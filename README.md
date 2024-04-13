@@ -65,3 +65,9 @@ cmd+L & cmd+C
 
 ## :warning: License
 Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/blob/main/LICENSE">LICENSE</a> for more information.
+
+## :gem: Acknowledgements
+
+Use this section to mention useful resources and libraries that you have used in your projects.
+
+- [This Project is Inspired from the Micro GitHub Repository](https://github.com/codewithsadee/micro)
