@@ -66,6 +66,5 @@ Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-
 
 ## :gem: Acknowledgements
 We gratefully acknowledge our co-hosts [Co-host Name 1], [Co-host Name 2], and [Co-host Name 3] for their invaluable contributions to the 'TruthUnfiltered' podcast series. While these co-hosts were not involved in the technical development and maintenance of this website, their contributions to the content of the podcasts are invaluable. Their efforts brought depth to our topics and engaged our audience with meaningful dialogues. This website serves as a platform to host and share our episodes, which have been enriched by the diverse perspectives and voices of our co-hosts.
-
 <br>This Project is Inspired from the Micro GitHub Repository.
 - [Micro GitHub Repository](https://github.com/codewithsadee/micro)
