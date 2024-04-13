@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const episodeContent = {
     '1': {
       title: 'Navigating the Digital Jungle',
-      description: 'Dive into the heart of social media...',
+      description: 'The Truth Unfiltered podcast hosts tackle the pressing issue of misinformation on social media, exploring its impact on public opinion and the delicate balance of censorship. Our team brings diverse insights into how algorithms shape our reality and the steps we can take to discern fact from fiction. Tune in to gain a deeper understanding and arm yourself with the knowledge to navigate the complex digital landscape.',
       audioSrc: './assets/content/podcast1.mp3',
       showNotesSrc: './assets/content/shownotes1.pdf',
       imageSrc: './assets/images/hero-title.png',
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     '2': {
       title: 'Guarding Secrets in the Age of Surveillance',
-      description: 'Explore the intricacies of privacy...',
+      description: 'The Truth Unfiltered podcast hosts tackle the pressing issue of data usage and privacy, exploring the impact of the Chinese social credit system and the similarities that it shares with the Black Mirror episode Nosedive. With a discussion on how current data is being used and the possible rights violations. Tune in to gain a deeper understanding and arm yourself with the knowledge to navigate the complex digital landscape.',
       audioSrc: './assets/content/podcast2.mp3',
       showNotesSrc: './assets/content/shownotes2.pdf',
       imageSrc: './assets/images/hero-title.png',
