@@ -36,8 +36,8 @@ Go to the project directory
 ```bash
 cd TruthUnfiltered
 ```
-Go to index.html
-Run the project using Live Server extension
+Go to index.html <br>
+Run the project using Live Server extension <br>
 For Windows
 ```bash
 alt+L & alt+O
