@@ -58,7 +58,7 @@ cmd+L & cmd+C
 
 
 ## :wave: Contributing
-<img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> Contributions to the Glow Strike are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
+<img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> Contributions to the Truth Unfiltered are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
 
 
 ## :warning: License
