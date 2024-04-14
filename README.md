@@ -1,7 +1,7 @@
 ## :star2: Truth Unfiltered
 <div align='center'>
 Welcome to the 'TruthUnfiltered' GitHub repository! This project showcases a custom-built website designed to host a podcast series developed for a senior seminar course in computer science. The site demonstrates proficient use of modern web development technologies and practices, including HTML, CSS, JavaScript, and GitHub Pages for hosting. The podcast explores various complex topics, and this site serves as both a platform for these discussions and a testament to the application of web development skills in real-world projects. Explore the repository to see how the site was built and to access the podcast episodes.
-<h4> <a href=https://nishantjoshi-007.github.io/TruthUnfiltered/>View Demo</a> <span> · </span> <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/issues"> Request Feature </a> </h4>
+<h4> <a href=https://nishantjoshi-007.github.io/TruthUnfiltered/>View Demo</a> <span> · </span> <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/blob/main/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/issues"> Request Feature </a> </h4>
 
 
 </div>
