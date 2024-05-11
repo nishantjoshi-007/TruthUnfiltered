@@ -18,9 +18,9 @@ Welcome to the 'TruthUnfiltered' GitHub repository! This project showcases a cus
 
 ### :gear: Installation
 In VS code, First
-```bash
-ctrl+P
-```
+- ctrl+P For Windows
+- cmd+P For MacOs
+
 Install Live Server Extension
 ```bash
 ext install ritwickdey.liveserver
@@ -38,23 +38,12 @@ cd TruthUnfiltered
 ```
 Go to index.html <br>
 Run the project using Live Server extension <br>
-For Windows
-```bash
-alt+L & alt+O
-```
-For MacOs
-```bash
-cmd+L & cmd+O
-```
+- alt+L & alt+O For Windows 
+- cmd+L & cmd+O For MacOs
+
 Stop the Server
-For Windows
-```bash
-alt+L & alt+C
-```
-For MacOs
-```bash
-cmd+L & cmd+C
-```
+- alt+L & alt+C For Windows 
+- cmd+L & cmd+C For MacOs
 
 
 ## :wave: Contributing
