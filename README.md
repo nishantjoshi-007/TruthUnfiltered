@@ -51,9 +51,9 @@ Stop the Server
 
 
 ## :warning: License
-Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/blob/main/LICENSE">LICENSE</a> for more information.
+Distributed under the customized MIT License. See <a href="https://github.com/nishantjoshi-007/TruthUnfiltered/blob/main/LICENSE">LICENSE</a> for more information.
 
 ## :gem: Acknowledgements
 We gratefully acknowledge our co-hosts Whinyffer Baez, Rafael Nunez, and Joey Vukdedaj for their invaluable contributions to the 'TruthUnfiltered' podcast series. While these co-hosts were not involved in the technical development and maintenance of this website, their contributions to the content of the podcasts are invaluable. Their efforts brought depth to our topics and engaged our audience with meaningful dialogues. This website serves as a platform to host and share our episodes, which have been enriched by the diverse perspectives and voices of our co-hosts.
 
-This website is Inspired from the <a href="https://github.com/codewithsadee/micro">Micro</a> GitHub Repository.
+This website/repository is Inspired from the <a href="https://github.com/codewithsadee/micro">Micro</a> GitHub Repository.
